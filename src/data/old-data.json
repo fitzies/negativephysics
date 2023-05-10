@@ -1,0 +1,137 @@
+[
+  {
+    "name": "Electricity",
+    "description": "The study of electricity covers basic concepts of electricity, including electric fields, electric potential, electric circuits, and electrical energy.",
+    "pretest": [
+      {
+        "question": "What is the flow of electric charge called?",
+        "a": "A. Voltage",
+        "b": "B. Resistance",
+        "c": "C. Current",
+        "d": "D. Power",
+        "answer": "c"
+      },
+      {
+        "question": "Which of the following is NOT a good conductor of electricity?",
+        "a": "A. Copper",
+        "b": "B. Aluminum",
+        "c": "C. Iron",
+        "d": "D. Glass",
+        "answer": "d"
+      },
+      {
+        "question": "What is the unit of electric charge?",
+        "a": "A. Ampere",
+        "b": "B. Volt",
+        "c": "C. Ohm",
+        "d": "D. Coulomb",
+        "answer": "d"
+      },
+      {
+        "question": "Which of the following is NOT a type of electric circuit?",
+        "a": "A. Series",
+        "b": "B. Parallel",
+        "c": "C. Combined",
+        "d": "D. Triangular",
+        "answer": "d"
+      },
+      {
+        "question": "The opposition to the flow of electric current is known as:",
+        "a": "A. Voltage",
+        "b": "B. Resistance",
+        "c": "C. Conductance",
+        "d": "D. Inductance",
+        "answer": "b"
+      }
+    ],
+    "slides": [
+      [
+        "Electricity basics",
+        "A conceptual physics level of electricity covers basic concepts of electricity, including ~electric fields, electric potential, electric circuits, and electrical energy~. Students will learn about the properties of electric charges, ~how electric fields are created~, and how they ~interact with other charges~. They will also learn about the behavior of ~electric circuits~, including the ~flow of current, voltage, and resistance~. The course is designed to provide students with a conceptual understanding of electricity and its applications in the world around us. Overall, a conceptual physics level of electricity provides a foundation for further study in physics and related fields",
+        "Ohm's law covers the ~fundamental relationship between potential difference, current, and resistance~. Ohm's law states that the current flowing through a ~conductor is directly proportional to the potential difference applied across its ends~. The equation form of Ohm's law is ~I = V/R~, where I is the current, V is the potential difference, and R is the resistance. Students will learn how to use Ohm's law to calculate the current, voltage, or resistance in a circuit. They will also learn about the factors that affect resistance, such as the length and cross-sectional area of a wire. Overall, a conceptual physics level of Ohm's law provides a foundation for understanding the behavior of electric circuits and the applications of electrical energy"
+      ],
+      [
+        "Ohm's Law",
+        "According to Ohm's Law, the ~relationship between voltage (V), current (I), and resistance (R) is linear~. This means that if you know the values of any two variables, you can calculate the third using the formula ~V = I * R~. The formula can be rearranged to calculate any of the three variables:",
+        "V = I * R (to calculate voltage)",
+        "I = V / R (to calculate current)",
+        "R = V / I (to calculate resistance)"
+      ],
+      [
+        "Voltage, Current and Resistance",
+        "Here's a breakdown of each component:",
+        "Voltage (V): Voltage, also referred to as electric potential difference, is the measure of the electrical force that pushes the electric charges (electrons) through a conductor. It is typically provided by a power source such as a battery or power supply. Voltage determines the potential energy of the charges and affects the flow of current. It is measured in volts (V).",
+        "Current (I): Current represents the flow of electric charges through a conductor. It is the rate at which charges move past a given point in a circuit. Current can be visualized as the flow of electrons within a wire. It is measured in amperes (A) and is denoted by the symbol 'I'.",
+        "Resistance (R): Resistance is the opposition that a material or component offers to the flow of electric current. It determines how much the current is limited or impeded in a circuit. Resistance depends on various factors, such as the material's conductivity, dimensions, and temperature. It is measured in ohms (Ω) and is denoted by the symbol 'R'."
+      ],
+      [
+        "Relationship between voltage, current and resistance",
+        "The relationship between voltage, current, and resistance can be summarized as follows:",
+        "If the ~voltage (V) across a conductor remains constant and the resistance (R) increases, the current (I) flowing through the conductor decreases~. Conversely, if the ~resistance decreases, the current increases~.",
+        "If the ~resistance (R) of a conductor remains constant and the voltage (V) increases, the current (I) flowing through the conductor also increases~. Conversely, if the ~voltage decreases, the current decreases~.",
+        "The ratio of ~voltage to current, represented by V/I, is equal to the resistance (R)~.",
+        "Ohm's Law provides a fundamental framework for analyzing and designing electrical circuits. It helps in understanding how voltage, current, and resistance interact with each other, enabling engineers and scientists to predict and control the behavior of electronic systems."
+      ]
+    ],
+    "posttest": [
+      {
+        "question": "What is the unit of inductance?",
+        "a": "A. Henry",
+        "b": "B. Ohm",
+        "c": "C. Farad",
+        "d": "D. Tesla",
+        "answer": "a"
+      },
+      {
+        "question": "What is the relationship between voltage, current, and resistance in Ohm's Law?",
+        "a": "A. V = I / R",
+        "b": "B. V = I * R",
+        "c": "C. I = V / R",
+        "d": "D. R = V / I",
+        "answer": "b"
+      },
+      {
+        "question": "What is the phenomenon where an electric current produces a magnetic field called?",
+        "a": "A. Electromagnetic induction",
+        "b": "B. Magnetic flux",
+        "c": "C. Oersted effect",
+        "d": "D. Ampere's circuital law",
+        "answer": "c"
+      },
+      {
+        "question": "Which of the following is a measure of the amount of energy transferred per unit time?",
+        "a": "A. Voltage",
+        "b": "B. Current",
+        "c": "C. Resistance",
+        "d": "D. Power",
+        "answer": "d"
+      },
+      {
+        "question": "Which of these devices converts electrical energy into mechanical energy?",
+        "a": "A. Transformer",
+        "b": "B. Electric motor",
+        "c": "C. Capacitor",
+        "d": "D. Resistor",
+        "answer": "b"
+      }
+    ]
+  },
+  {
+    "name": "Waves",
+    "description": "The study of waves includes the properties of waves, such as wavelength, frequency, amplitude, and speed.",
+    "pretest": [],
+    "slides": [
+      [
+        "At a conceptual physics level, waves are studied as a fundamental concept in physics. The study of waves includes the properties of waves, such as wavelength, frequency, amplitude, and speed. Students will learn about the different types of waves, including longitudinal and transverse waves, and how they are produced. They will also learn about wave interference, reflection, and refraction. The study of waves is important in many areas of physics, including optics, acoustics, and electromagnetism. Overall, a conceptual physics level of waves provides a foundation for understanding the behavior of waves and their applications in the world around us."
+      ],
+      [
+        "Equations used in waves for conceptual physics include the wave equation, which describes the mathematical relationship between the speed (v) of a wave and its wavelength (λ) and frequency (f). The wave equation can be expressed as v = fλ, where v is the wave speed, f is the frequency, and λ is the wavelength. The wave equation is used to solve mathematical problems related to waves, such as the properties of the medium through which the wave travels. Other equations in wave theory include the equations for standing waves, harmonic frequencies, and the general wave function. Overall, equations in waves for conceptual physics provide a mathematical foundation for understanding the behavior of waves in different media.",
+        "The wave equation, v = λ * f, relates the velocity (v), wavelength (λ), and frequency (f) of a wave. It describes how these three properties are interconnected.",
+        "1. Velocity (v): The velocity of a wave represents the speed at which the wave propagates through a medium or space. It refers to how quickly the wave moves from one point to another. The velocity can vary depending on the characteristics of the medium the wave is traveling through. For example, sound waves travel at different velocities in air, water, and solids.",
+        "2. Wavelength (λ): The wavelength of a wave is the distance between two consecutive points in a wave that are in the same phase. In other words, it is the length of one complete cycle of the wave. For example, in a sound wave, the wavelength corresponds to the distance between two adjacent compressions or rarefactions. In a light wave, it represents the distance between two consecutive peaks or troughs.",
+        "3. Frequency (f): The frequency of a wave refers to the number of complete cycles or oscillations that the wave completes in one second. It quantifies how many times a wave repeats itself within a given time period. Frequency is typically measured in hertz (Hz), where 1 Hz represents one cycle per second. The higher the frequency, the more cycles the wave completes in a given time, and the higher the pitch or tone (in the case of sound waves)."
+      ]
+    ],
+    "posttest": []
+  }
+]

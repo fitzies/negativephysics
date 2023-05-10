@@ -1,0 +1,222 @@
+[
+  {
+    "name": "Electricity",
+    "description": "The study of electricity covers basic concepts of electricity, including electric fields, electric potential, electric circuits, and electrical energy.",
+    "pretest": [
+      {
+        "question": "What is the flow of electric charge called?",
+        "a": "A. Voltage",
+        "b": "B. Resistance",
+        "c": "C. Current",
+        "d": "D. Power",
+        "answer": "c"
+      },
+      {
+        "question": "Which of the following is NOT a good conductor of electricity?",
+        "a": "A. Copper",
+        "b": "B. Aluminum",
+        "c": "C. Iron",
+        "d": "D. Glass",
+        "answer": "d"
+      },
+      {
+        "question": "What is the unit of electric charge?",
+        "a": "A. Ampere",
+        "b": "B. Volt",
+        "c": "C. Ohm",
+        "d": "D. Coulomb",
+        "answer": "d"
+      },
+      {
+        "question": "Which of the following is NOT a type of electric circuit?",
+        "a": "A. Series",
+        "b": "B. Parallel",
+        "c": "C. Combined",
+        "d": "D. Triangular",
+        "answer": "d"
+      },
+      {
+        "question": "The opposition to the flow of electric current is known as:",
+        "a": "A. Voltage",
+        "b": "B. Resistance",
+        "c": "C. Conductance",
+        "d": "D. Inductance",
+        "answer": "b"
+      }
+    ],
+    "slides": [
+      [
+        "Introduction to Electricity",
+        "In this lesson, you will learn about the basic concepts of electricity, including electric fields, electric potential, electric circuits, and electrical energy. You will explore the properties of electric charges, how electric fields are created, and how they interact with other charges. Additionally, you will study the behavior of electric circuits, including the flow of current, voltage, and resistance."
+      ],
+      [
+        "Electric Fields and Electric Potential",
+        "An electric field is a region around a charged object where other charged objects experience a force. The electric potential is a measure of the potential energy per unit charge at a point within the electric field. The electric potential difference, also known as voltage, is the difference in electric potential between two points in an electric field."
+      ],
+      [
+        "Electric Circuits",
+        "An electric circuit is a closed loop through which electric current can flow. There are three main types of electric circuits: series, parallel, and combined. In a series circuit, all components are connected end-to-end in a single path, while in a parallel circuit, components are connected in multiple paths. Combined circuits consist of both series and parallel arrangements."
+      ],
+      [
+        "Current, Voltage, and Resistance",
+        "Current is the flow of electric charges through a conductor, measured in amperes (A). Voltage, measured in volts (V), is the potential difference that drives the flow of electric charges. Resistance, measured in ohms (Ω), is the opposition that a material or component offers to the flow of electric current. Ohm's Law relates these three quantities: V = I * R."
+      ],
+      [
+        "Electrical Energy and Power",
+        "Electrical energy is the energy resulting from the movement of charged particles, such as electrons. It can be converted into other forms of energy, such as light, heat, or mechanical energy. Electrical power is the rate at which electrical energy is transferred or converted, measured in watts (W). The formula for electrical power is P = V * I, where P represents power, V represents voltage, and I represents current."
+      ]
+    ],
+    "posttest": [
+      {
+        "question": "What is the unit of inductance?",
+        "a": "A. Henry",
+        "b": "B. Ohm",
+        "c": "C. Farad",
+        "d": "D. Tesla",
+        "answer": "a"
+      },
+      {
+        "question": "What is the relationship between voltage, current, and resistance in Ohm's Law?",
+        "a": "A. V = I / R",
+        "b": "B. V = I * R",
+        "c": "C. I = V / R",
+        "d": "D. R = V / I",
+        "answer": "b"
+      },
+      {
+        "question": "What is the phenomenon where an electric current produces a magnetic field called?",
+        "a": "A. Electromagnetic induction",
+        "b": "B. Magnetic flux",
+        "c": "C. Oersted effect",
+        "d": "D. Ampere's circuital law",
+        "answer": "c"
+      },
+      {
+        "question": "Which of the following is a measure of the amount of energy transferred per unit time?",
+        "a": "A. Voltage",
+        "b": "B. Current",
+        "c": "C. Resistance",
+        "d": "D. Power",
+        "answer": "d"
+      },
+      {
+        "question": "Which of these devices converts electrical energy into mechanical energy?",
+        "a": "A. Transformer",
+        "b": "B. Electric motor",
+        "c": "C. Capacitor",
+        "d": "D. Resistor",
+        "answer": "b"
+      }
+    ]
+  },
+  {
+    "name": "Waves",
+    "description": "The study of waves includes the properties of waves, such as wavelength, frequency, amplitude, and speed.",
+    "pretest": [
+      {
+        "question": "What is the distance between two consecutive points in a wave that are in the same phase?",
+        "a": "A. Wavelength",
+        "b": "B. Frequency",
+        "c": "C. Amplitude",
+        "d": "D. Speed",
+        "answer": "a"
+      },
+      {
+        "question": "Which of the following is NOT a type of wave?",
+        "a": "A. Longitudinal wave",
+        "b": "B. Transverse wave",
+        "c": "C. Tidal wave",
+        "d": "D. Sound wave",
+        "answer": "c"
+      },
+      {
+        "question": "What is the term for the number of complete cycles or oscillations that a wave completes in one second?",
+        "a": "A. Amplitude",
+        "b": "B. Frequency",
+        "c": "C. Wavelength",
+        "d": "D. Speed",
+        "answer": "b"
+      },
+      {
+        "question": "What is the phenomenon in which waves change direction when entering a different medium?",
+        "a": "A. Interference",
+        "b": "B. Reflection",
+        "c": "C. Refraction",
+        "d": "D. Diffraction",
+        "answer": "c"
+      }
+    ],
+    "slides": [
+      [
+        "Introduction to Waves",
+        "In this lesson, youwill learn about the basic properties of waves, including wavelength, frequency, amplitude, and speed. We will discuss the different types of waves, such as longitudinal and transverse waves, and how they are produced. You will also learn about wave interference, reflection, and refraction, which are important concepts in many areas of physics, including optics, acoustics, and electromagnetism."
+      ],
+      [
+        "Types of Waves",
+        "There are two main types of waves:",
+        "1. Longitudinal waves: In these waves, the particles of the medium through which the wave is traveling move parallel to the direction of the wave. Examples of longitudinal waves include sound waves and seismic P-waves.",
+        "2. Transverse waves: In these waves, the particles of the medium through which the wave is traveling move perpendicular to the direction of the wave. Examples of transverse waves include light waves, water waves, and seismic S-waves."
+      ],
+      [
+        "Wave Properties",
+        "Waves have several important properties:",
+        "1. Wavelength (λ): The distance between two consecutive points in a wave that are in the same phase, such as two adjacent peaks or troughs.",
+        "2. Frequency (f): The number of complete cycles or oscillations that a wave completes in one second, measured in hertz (Hz).",
+        "3. Amplitude (A): The maximum displacement of the particles of the medium from their equilibrium position during a wave cycle.",
+        "4. Speed (v): The rate at which a wave propagates through a medium or space, determined by the medium's properties."
+      ],
+      [
+        "Wave Interference, Reflection, and Refraction",
+        "1. Wave interference: When two or more waves meet, they can either reinforce or cancel each other out, depending on their relative phases. This phenomenon is called wave interference and can result in constructive or destructive interference.",
+        "2. Wave reflection: When a wave encounters a boundary between two different media, part or all of the wave may be reflected back into the original medium. This phenomenon is known as wave reflection and is responsible for echoes, for example.",
+        "3. Wave refraction: When a wave enters a new medium at an angle, its speed changes, causing the wave to change direction. This phenomenon is called wave refraction and is responsible for the bending of light when it passes through water or a lens, for example."
+      ],
+      [
+        "Wave Equation and Applications",
+        "The wave equation, v = λ * f, relates the velocity (v), wavelength (λ), and frequency (f) of a wave. It describes how these three properties are interconnected. Understanding the wave equation and the behavior of waves is essential in many areas of physics, such as designing antennas, analyzing sound waves in acoustics, and understanding the behavior of light in optics."
+      ]
+    ],
+    "posttest": [
+      {
+        "question": "What type of wave has particles of the medium moving parallel to the direction of the wave?",
+        "a": "A. Longitudinal wave",
+        "b": "B. Transverse wave",
+        "c": "C. Surface wave",
+        "d": "D. Electromagnetic wave",
+        "answer": "a"
+      },
+      {
+        "question": "Which of the following describes the maximum displacement of the particles of the medium during a wave cycle?",
+        "a": "A. Wavelength",
+        "b": "B. Frequency",
+        "c": "C. Amplitude",
+        "d": "D. Speed",
+        "answer": "c"
+      },
+      {
+        "question": "What happens when two waves meet andtheir relative phases result in the waves reinforcing each other?",
+        "a": "A. Constructive interference",
+        "b": "B. Destructive interference",
+        "c": "C. Wave reflection",
+        "d": "D. Wave refraction",
+        "answer": "a"
+      },
+      {
+        "question": "Which phenomenon is responsible for the bending of light when it passes through water or a lens?",
+        "a": "A. Wave interference",
+        "b": "B. Wave reflection",
+        "c": "C. Wave refraction",
+        "d": "D. Polarization",
+        "answer": "c"
+      },
+      {
+        "question": "According to the wave equation, what is the relationship between the speed of a wave, its frequency, and its wavelength?",
+        "a": "A. v = λ * f",
+        "b": "B. v = λ / f",
+        "c": "C. f = λ / v",
+        "d": "D. λ = v / f",
+        "answer": "a"
+      }
+    ]
+  }
+]
