@@ -8,7 +8,7 @@ const Page = () => {
         return (
           <Link
             href={`courses/${course.name.toLowerCase()}`}
-            className="w-1/6 bg-shadow gap-1 aspect-square rounded-2xl shadow-md border border-border p-3 hover:-translate-y-1 duration-200 cursor-pointer flex flex-col"
+            className="lg:w-1/6 lg:aspect-square w-1/2 bg-shadow gap-1 rounded-2xl shadow-md border border-border p-3 hover:-translate-y-1 duration-200 cursor-pointer flex flex-col"
             key={course.name}
           >
             <h1 className="font-bold">{course.name}</h1>
