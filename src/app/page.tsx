@@ -14,10 +14,10 @@ const Page = () => {
           physics! Our mission is to make learning physics engaging, accessible,
           and enjoyable for everyone, no matter your background or skill level.
         </p>
-        <div className="flex w-[20%] gap-3 pt-3 mt-2">
+        {/* <div className="flex w-[20%] gap-3 pt-3 mt-2">
           <Button text="Courses" link="/courses" />
           <Button text="Learn more" type="hollow" />
-        </div>
+        </div> */}
       </div>
       <Reviews />
     </div>
