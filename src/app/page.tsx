@@ -13,9 +13,9 @@ const Page = () => {
           physics! Our mission is to make learning physics engaging, accessible,
           and enjoyable for everyone, no matter your background or skill level.
         </p>
-        <br />
       </div>
       <Reviews />
+      <br />
       <p>
         The aim of conceptual physics is to provide students with a
         conceptually-based exposure to the fundamental principles and processes
