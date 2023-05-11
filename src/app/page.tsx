@@ -15,7 +15,7 @@ const Page = () => {
         </p>
         <br />
         <p>
-          The aim of conceptual physics is to provide students with a
+          The aim of Negative Physics is to provide students with a
           conceptually-based exposure to the fundamental principles and
           processes of the physical world. The courses covers concepts of
           motion, forces, energy, heat, electricity, magnetism, and the
