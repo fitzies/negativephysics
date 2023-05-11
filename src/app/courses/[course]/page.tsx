@@ -1,32 +1,38 @@
-"use client";
-
-import Bar from "@/components/Bar";
 import Quiz from "@/components/Quiz";
-import { useForm } from "@/utils";
-import json from "@/data/courses.json";
 import Slide from "@/components/Slide";
+import { getCourseData } from "@/helper";
+import Course from "@/components/Course";
 
-function findIndexByName(name: string): number {
-  return json.findIndex((obj) => obj.name.toLowerCase() === name.toLowerCase());
+function findIndexByName(json: any, name: string): number {
+  return json.findIndex(
+    (obj: Course) => obj.name.toLowerCase() === name.toLowerCase()
+  );
 }
 
-const Page = ({ params }: { params: { course: string } }) => {
-  const courseIndex = findIndexByName(params.course);
+const Page = async ({ params }: { params: { course: string } }) => {
+  const courseData = await getCourseData();
+
+  if (!courseData) {
+    return (
+      <div className="w-screen h-[50vh] flex justify-center items-center">
+        Loading
+      </div>
+    );
+  }
+
+  const courseIndex = findIndexByName(courseData, params.course);
 
   const slides = [
-    <Quiz key="pretest" questions={json[courseIndex].pretest} />,
-    ...json[courseIndex].slides.map((slideData, index) => (
+    <Quiz key="pretest" questions={courseData[courseIndex].pretest} />,
+    ...courseData[courseIndex].slides.map((slideData: Slide, index: number) => (
       <Slide key={index} data={slideData} />
     )),
-    <Quiz key="posttest" questions={json[courseIndex].posttest} />,
+    <Quiz key="posttest" questions={courseData[courseIndex].posttest} />,
   ];
-
-  const { index, next, prev, set, current } = useForm(slides);
 
   return (
     <>
-      <Bar slides={slides} index={index} set={set} />
-      {current}
+      <Course slides={slides} />
     </>
   );
 };

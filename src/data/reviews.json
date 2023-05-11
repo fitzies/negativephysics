@@ -2,26 +2,31 @@
   {
     "author": "Emma",
     "text": "Negative Physics made learning complex concepts a breeze! The interactive simulations were a game-changer for my understanding.",
+    "rating": "★★★★★",
     "date": "11/20/23"
   },
   {
     "author": "Lucas",
     "text": "I always struggled with physics, but the engaging courses at Negative Physics turned it into one of my favorite subjects!",
+    "rating": "★★★★★",
     "date": "12/15/23"
   },
   {
     "author": "Sophia",
     "text": "The expert educators at Negative Physics helped me achieve my highest grade in my college physics course. Highly recommended!",
+    "rating": "★★★★★",
     "date": "01/08/23"
   },
   {
     "author": "Olivia",
     "text": "I used to dread studying physics, but Negative Physics changed that with their captivating and interactive courses. Now I can't get enough!",
+    "rating": "★★★★☆",
     "date": "06/05/23"
   },
   {
     "author": "Ethan",
     "text": "The passionate instructors at Negative Physics really care about student success. They made learning physics a truly enjoyable experience!",
+    "rating": "★★★★☆",
     "date": "07/23/23"
   }
 ]

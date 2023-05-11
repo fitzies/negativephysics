@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const useForm = (slides: JSX.Element[]) => {
+const useForm = (slides: Slide[]) => {
   const [index, setIndex] = useState(0);
   const [current, setCurrent] = useState(slides[index]);
 

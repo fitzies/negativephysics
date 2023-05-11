@@ -1,7 +1,7 @@
 "use client";
 
 type props = {
-  slides: JSX.Element[];
+  slides: Slide[];
   index: number;
   set: Function;
 };

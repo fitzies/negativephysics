@@ -13,7 +13,10 @@ const Reviews = () => {
             >
               <h1 className="font-semibold">{review.author}</h1>
               <p className="text-gray-400 my-2">{review.text}</p>
-              <p className="text-gray-400 mt-auto">{review.date}</p>
+              <div className="flex mt-auto text-gray-400 justify-between">
+                <p>{review.rating}</p>
+                <p>{review.date}</p>
+              </div>
             </div>
           );
         })}

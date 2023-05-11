@@ -1,10 +1,12 @@
-import json from "@/data/courses.json";
+import { getCourseData } from "@/helper";
 import Link from "next/link";
 
-const Page = () => {
+const Page = async () => {
+  const courseData = await getCourseData();
+
   return (
     <div className="w-screen flex gap-4 py-3 px-4">
-      {json.map((course) => {
+      {courseData.map((course: Course) => {
         return (
           <Link
             href={`courses/${course.name.toLowerCase()}`}

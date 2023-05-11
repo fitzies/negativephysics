@@ -6,3 +6,15 @@ type Question = {
   d: string;
   answer: a | b | c | d;
 };
+
+type Slide = [string, string];
+
+type Course = {
+  name: string;
+  description: string;
+  pretest: Question[];
+  slides: Slide[];
+  posttest: Question[];
+};
+
+type Courses = Course[];
