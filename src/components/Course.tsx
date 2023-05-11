@@ -1,6 +1,6 @@
 "use client";
 
-import { useForm } from "@/utils";
+import { useForm } from "@/lib/utils";
 import Bar from "./Bar";
 
 type props = {

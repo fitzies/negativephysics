@@ -1,6 +1,6 @@
 import Quiz from "@/components/Quiz";
 import Slide from "@/components/Slide";
-import { getCourseData } from "@/helper";
+import { getCourseData } from "@/lib/helper";
 import Course from "@/components/Course";
 
 function findIndexByName(json: any, name: string): number {

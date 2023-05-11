@@ -45,7 +45,12 @@ const Slide = (props: props) => {
           while ((match = regexImage.exec(part)) !== null) {
             accumulator.push(part.slice(lastIndex, match.index));
             accumulator.push(
-              <img key={`image-${index}`} src={match[1]} alt="" />
+              <img
+                key={`image-${index}`}
+                src={match[1]}
+                alt=""
+                className="rounded-lg"
+              />
             );
             lastIndex = match.index + match[0].length;
           }
@@ -67,11 +72,7 @@ const Slide = (props: props) => {
     <div className="w-screen p-6">
       {props.data.map((string, index) => (
         <div key={index}>
-          {index === 0 ? (
-            <h1>{formatText(string)}</h1>
-          ) : (
-            <p>{formatText(string)}</p>
-          )}
+          {index === 0 ? <h1>{string}</h1> : <p>{formatText(string)}</p>}
           <br />
         </div>
       ))}

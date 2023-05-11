@@ -1,4 +1,4 @@
-import { getCourseData } from "@/helper";
+import { getCourseData } from "@/lib/helper";
 import Link from "next/link";
 
 const Page = async () => {
