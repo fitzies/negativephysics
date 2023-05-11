@@ -15,8 +15,8 @@ const Bar = (props: props) => {
     <div className="w-screen flex gap-2 py-2 px-2">
       {props.slides.map((slide, i) => (
         <p
-          className={`py-1 px-3 rounded-full cursor-pointer hover:bg-border duration-200 ${
-            props.index === i ? " bg-primary" : "bg-shadow"
+          className={`py-1 px-3 rounded-full cursor-pointer duration-200 ${
+            props.index === i ? " bg-primary" : "bg-shadow hover:bg-border"
           }`}
           onClick={() => set(i)}
           key={i}
