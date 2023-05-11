@@ -14,21 +14,20 @@ const Page = () => {
           and enjoyable for everyone, no matter your background or skill level.
         </p>
         <br />
-        <p>
-          The aim of conceptual physics is to provide students with a
-          conceptually-based exposure to the fundamental principles and
-          processes of the physical world. The courses covers concepts of
-          motion, forces, energy, heat, electricity, magnetism, and the
-          structure of matter and the universe. Upon completion, students should
-          be able to describe examples and applications of the principles
-          studied. The course aims to develop a deep, conceptual understanding
-          of physics as students explore how physics relates to the real world.
-          Overall, the course provides a foundation for further study in physics
-          and related fields, as well as an understanding of the applications of
-          physics in the world around us
-        </p>
       </div>
       <Reviews />
+      <p>
+        The aim of conceptual physics is to provide students with a
+        conceptually-based exposure to the fundamental principles and processes
+        of the physical world. The courses covers concepts of motion, forces,
+        energy, heat, electricity, magnetism, and the structure of matter and
+        the universe. Upon completion, students should be able to describe
+        examples and applications of the principles studied. The course aims to
+        develop a deep, conceptual understanding of physics as students explore
+        how physics relates to the real world. Overall, the course provides a
+        foundation for further study in physics and related fields, as well as
+        an understanding of the applications of physics in the world around us
+      </p>
     </div>
   );
 };
