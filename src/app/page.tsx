@@ -14,7 +14,7 @@ const Page = () => {
           and enjoyable for everyone, no matter your background or skill level.
         </p>
         <br />
-        <p>
+        {/* <p>
           The aim of Negative Physics is to provide students with a
           conceptually-based exposure to the fundamental principles and
           processes of the physical world. The courses covers concepts of
@@ -26,7 +26,7 @@ const Page = () => {
           Overall, the course provides a foundation for further study in physics
           and related fields, as well as an understanding of the applications of
           physics in the world around us
-        </p>
+        </p> */}
       </div>
       <Reviews />
     </div>
